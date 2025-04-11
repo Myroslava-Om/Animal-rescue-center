@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My first site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- google fotns -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- site styles -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+	<header>
+		<div class="container">	
+			<div class="header-content_wrapper">
+				
+				<a href="/" class="site-logo">	
+					<span>Animal rescue center </span>
+				</a>
+
+				
+				<input type="checkbox" id="burger" class="burger_input">
+				<label for="burger" class="burger">
+					<span></span>
+				</label>
+
+				<nav class="header-navigation">
+					<ul>
+						<li><a href="#">Donate</a></li>
+						<li><a href="#">BLOG</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">About The Animals</a></li>
+						<li class="has-child">
+						<a href="#">Carpathians</a>
+						<ul class="sub-menu">
+								<li class="has child"><a href="#">Mammals</a>
+								<ul class="level_menu">
+								<li><a href="#">Bears</a></li>
+								<li><a href="#">Dears</a></li>
+								<li><a href="#">Cats</a></li>
+							</ul>
+								</li>
+								<li><a href="#">Wild Cat</a></li>
+								<li><a href="#">Lynx</a></li>
+							</ul>
+						</li>
+						<li class="has-child">
+							<a href="#">National parks</a>
+							<ul class="sub-menu">
+								<li><a href="#">Ukrainian NP</a></li>
+								<li><a href="#">World NP</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div class="header-search">	
+						<div class="header-search_icon">
+							<i class="fas fa-search"></i>
+							<div class="header-search-box">
+								<form action="#" method="GET">
+									<input type="text" placeholder="Type here" required="required">
+									<input type="submit" value="Search" class="btn btn-purple">
+								</form>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main>
+
+<!--
+		<section id="main_banner" class="main_banner">
+			<div class="banner_text">
+				<h1>Wild animals of carpathian mountains need protection by law</h1>
+				<p>Poachers destroy the fauna</p>
+				<div class="banner_btn_wrapper">
+					<a class="btn btn-purple" href="#">read more</a>
+					<a class="btn btn-outline-white" href="#">download now</a>
+				</div>
+			</div>
+		</section>
+		
+-->
+<!-- slider-->
+         <section>
+             <div id="carousel" class="carousel">
+		<a href="javascript:void(0)" class="carousel-arrow arrow-prev"><</a>
+		<div class="carousel_window">
+			<div class="carousel_track">
+				<div class="carousel_item show">
+					<img src="Carpathian lynx.jpg" alt="lynx">
+				</div>
+				<div class="carousel_item">
+					<img src="https://www.sciencealert.com/images/2019-12/processed/CatsHaveFacialExpressionsButHardToRead_1024.jpg" alt="pet cat">
+				</div>
+				<div class="carousel_item">
+					<img src="manul.jpg" alt="Manul">
+				</div>
+				<div class="carousel_item">
+					<img src="puma.jpg" alt="Puma">
+				</div>
+				<div class="carousel_item">
+					<img src="the Asiatic wild cat.jpg" alt="Asian cat">
+				</div>
+			</div>
+		</div>
+		<a href="javascript:void(0)" class="carousel-arrow arrow-next">></a>
+
+		<ul id="carousel_dots" class="carousel_dots">
+			<li><a href="javascript:void(0)" class="active"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+		</ul>
+
+	</div>
+         </section>
+		
+<!-----------------------White wolf---------------------------------->
+		
+
+		<section id="seo" class="seo info_block">
+			<div class="container">
+				<div class="info_block_content">
+					<div class="info_block_img_wrapper">
+						<img src="white_wolf.jpg" alt="wolf">
+					</div>
+					<div class="info_block_text_wrapper">
+						<h2>Wolves of Carpathians</h2>
+						<p>Securing at least 100.000 hectares of wild areas in the Eastern Carpathians for the development of European first-class wilderness supported by sustainable regional development. https://fzs.org/en/projects/wolf-mountains-carpathians</p>
+						<a href="#" class="btn btn-purple">read more</a>
+					</div>
+				</div>
+			</div>
+		</section>
+             <!----------------------Acardion--------------------------------->
+
+		<section id="porfolio" class="seo info_block info_block_rotate bg-gray">
+<!--
+			<div class="container">
+				<div class="info_block_content">
+					<div class="info_block_img_wrapper">
+						<img src="assets/img/flexible-portfolio.png" alt="Portfolio Section">
+					</div>
+					<div class="info_block_text_wrapper">
+						<h2>Portfolio Section</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies.</p>
+						<a href="#" class="btn btn-purple">See it in action</a>
+					</div>
+				</div>
+			</div>
+-->
+            
+
+            <a href="javascript:void(0)" data-modal="#modal_1">Ungulates protection</a>
+
+	<div id="modal_1" class="modal_wrapper">
+		<div class="modal">
+            <div class="modal-header">
+                <a href="javascript:void(0)" data-modal="#modal_1">&times;</a>
+                <div >Carpathian Ungulates</div>
+            </div >
+			<div class="modal_body">
+			<div class="accordion">
+			    <button type="button" class="accordion_button">Carpathian Deers</button>
+			    <div class="accordion_content">
+                    <img src="deer.jpg" alt="carpathian-deer">
+                <p>
+                    Deer are protected by the Deer Act, an important piece of legislation which criminalises various activities. These include poaching deer, killing deer, and the use of ammunition in hunting deer.
+                </p>
+			        
+			    </div>
+                <button type="button" class="accordion_button">Buffalo in Ukraine</button>
+			    <div class="accordion_content">
+                    <img src="buffalo.jpg" alt="Buffalo Askania Nowa">
+                <p>
+                    Transcarpathia in the Ukraine was always famous for its rare kind of animals. For example the Carpathian buffalo. They were often seen in this region before the Soviet Union times. During that time collective farms were one of the main sources of income for the country. And almost every family worked there.
+                </p>
+			        
+			    </div>
+			<button type="button" class="accordion_button">Carpathian moose</button>
+			    <div class="accordion_content">
+                    <img src="los.jpg" alt="carpathian-moose">
+                <p>
+                    The moose is the largest extant species in the deer family.
+Moose is a native species in Northern and partially also in Central Europe. It continuous areal covers Norway, Sweden, Finland, Russia, baltic states, Belorussia, Poland and northern part of Ukraine. Small isolated populations had even been register in Austria a long time ago.  Still existing scattered isolated populations can be  found  in the Czech Republic and Germany. Solitary individuals can also be found in Romania, Hungary and in Slovakia.
+                </p>
+			        
+			    </div>
+
+
+		</div>
+	</div>
+
+		</div>
+	</div>
+		</section>
+<!------------------------Black Sea------------------------------------>
+		<section class="small_section">
+			<div class="container">
+				<div class="banner_text">
+					<h2>Black Sea pollution problems</h2>
+					<p>Major problem areas. Pollution, loss of biodiversity and coastal degradation have been identified as the major issues affecting the environmental state of the Black Sea. Scientists have identified several serious problems for the Black Sea associated with various types of pollution</p>
+					<div class="banner_btn_wrapper">
+						<a class="btn btn-purple" href="#">read more</a>
+					</div>
+				</div>
+			</div>
+		</section>
+<!----------------------------Chornohora-------------------------------->
+		<section id="options" class="info_block_large bg-gray">
+			<div class="container">
+				<div class="option_intro">
+					<h2>Chornohora</h2>
+					<p>Chornohora is the highest mountain range of the Ukrainian Carpathians. It includes the highes top Hoverla,  which height is  2061 m.  The main ridge extends to a length of approx. 40 km between the valleys of the rivers Black Tisza at the west and Black Cheremosh at the east.</p>
+					<a class="btn btn-purple" href="#">Download Now</a>
+				</div>
+				<img src="Chornohora.JPG" alt="Limitless Options">
+			</div>
+		</section>
+<!---------------------------Projects---------------------------->
+		<section id="project" class="info_block_large bg-dark-blue">
+			<div class="container">
+				<div class="option_intro">
+					<h2>Our Latest Projects</h2>
+					<p>Here is our latest projects. You'll love them!</p>
+				</div>
+			</div>
+			<div class="projects_wrapper">
+
+				<a href="#" class="projects_item" data-word="Wolf Mountains">
+					<img src="wolf behavior.jpg" alt="wolf behavior">
+				</a>
+				<a href="#" class="projects_item" data-word="Baby Wolfs Protection">
+					<img src="baby wolfs.jpg" alt="project 2">
+				</a>
+				<a href="#" class="projects_item" data-word="Catching Poachers">
+					<img src="Kinessa.jpg" alt="Kinessa Johnson">
+				</a>
+				<a href="#" class="projects_item" data-word="Destroying Traps">
+					<img src="wolf-leg-hold-trap.jpg" alt="project 5">
+				</a>
+				<a href="#" class="projects_item" data-word="Veterinary help">
+					<img src="wolf rescue.jpg" alt="project 5">
+				</a>
+				<a href="#" class="projects_item" data-word="Saving Lynx">
+					<img src="Lynx_saving.jpg" alt="project 6">
+				</a>
+				<a href="#" class="projects_item" data-word="Saving Narcissus">
+					<img src="Narcissus.poeticus.1658.jpg" alt="project 7">
+				</a>
+				<a href="#" class="projects_item" data-word="Bear Rescue">
+					<img src="Bear rescue.jpg" alt="project 8">
+				</a>
+				<a href="#" class="projects_item" data-word="Edelveis protection">
+					<img src="edelvejs.jpg" alt="project 9">
+				</a>
+				<a href="#" class="projects_item" data-word="Foxes Pet Adoption">
+					<img src="foxes-rescue.jpg" alt="project 10">
+				</a>
+
+			</div>
+		</section>
+<!-------------------------Chair Leader say----------------------------------->
+		<section class="small_section" style="background-image: url(assets/img/photo-1451417379553-15d8e8f49cde.jpg);">
+			<div class="container">
+				<div class="banner_text">
+					<h2>What Our Chair Leader Say</h2>
+					<p>Help with the expansion of National Parks and their protected core zones (it is aimed to reach at least 100.000 hectares of wilderness areas)
+Improvement of the National Parks conservation work
+Establishing a sustainable local economy (e.g. ecotourism, creating a regional brand for locally produced foods and goods)
+Planning and implementing information campaigns to raise awareness for the outstanding value of the Carpathian wilderness</p>
+					<div class="testimonails_owner">
+						<img src="tomas.jpg" alt="Aigars Silkalns">
+						<div>Tomáš Vida</div>
+					</div>
+				</div>
+			</div>
+		</section>
+<!-------------------------Main Projects---------------------------------->
+		<section id="technologies" class="info_block_large technologies_section">
+			<div class="container">
+				<div class="option_intro">
+					<h2>Our main projects</h2>
+					<p>There are our latest projects. You'll love them!</p>
+				</div>
+
+				<div class="projects_wrapper">
+                     <section class="container1">
+            <div class="one-block"> 
+                <img src="twowolfs.jpg" alt="wolfs">
+                <h1>Wolfs</h1>
+                <div class="text">
+                Mankind's relationship to the wolf is ambivalent – on the one hand the animal is admired as a skilled and untiring hunter but also ill-famed as Isengrim the bloodthirsty and persecuted. In many parts of Europe these once common grey-coated raiders have long disappeared.
+                </div>
+                <a class="a" href="">Read more</a>
+                <div class="icon">
+                    
+                </div>
+        </div> 
+        <div class="one-block"> 
+                <img src="edelveises.jpg" alt="Edelveises">
+                <h1>Edelveiss</h1>
+            <div class="text">
+                Austria, France, Germany, India, Slovenia, and Switzerland are countries in which edelweiss, the well-known and prized alpine wildflower, grows and receives protection under certain plant conservation laws.  All six jurisdictions are states parties to the Convention on Biological Diversity as well as to the Convention on International Trade in Endangered Species of Wild Fauna and Flora.
+            </div>
+                <a class="a" href=""> Read more</a>
+            <div class="icon">
+                    
+                </div>
+        </div> 
+        <div class="one-block"> 
+                <img src="lynx_in_water.jpg" alt="canadian-lynx">
+                <h1>Lynx</h1>
+            <div class="text">
+                The lynx is in fact flexible as regards its habitat but two factors are essential for its survival: unbroken stretches of country, i.e. not transected by roads, and sufficient prey. Both have become rare in Europe. And strict protection status of the lynx does not help it and its prey when the poachers come out hunting.
+            </div>
+                <a class="a" href=""> Read more</a>
+            <div class="icon">
+                    
+                </div>
+        </div> 
+        
+    </section>
+
+<!--
+				<div class="teh_item" data-word="project 1">
+					<img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/css-logo.png" alt="project">
+				</div>
+				<div class="teh_item" data-word="project 12">
+					<img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/css-logo.png" alt="project">
+				</div>
+				<div class="teh_item" data-word="project 16">
+					<img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/css-logo.png" alt="project">
+				</div>
+				<div class="teh_item" data-word="project 1">
+					<img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/css-logo.png" alt="project">
+				</div>
+-->
+
+			</div>
+			</div>
+		</section>
+<!------------------------------------------------------------>
+		<section id="download" class="bg-gray download_section">
+			<div class="container">
+				<div class="download_row">
+					<div class="download_text_wrapper">
+						<h3 class="download_text">
+							Would you like to know more about saving wildlife?
+						</h3>
+					</div>
+					<div class="download_btn_wrapper">
+						<div class="download_btn">
+							<a href="forest.jpg" class="btn btn-purple" download="Logo" target="_blank">Download now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+<!--        ----------------Footer---------------------->
+	<footer>
+		<div class="container">
+			<div class="footer_row">
+				<div class="footer_text_wrapper">
+					<div class="footer_text">
+						Contact us:   wildlife@gmail.com
+					</div>
+				</div>
+				<div class="footer_socials_wrapper">
+					<ul>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter-square"></i></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
